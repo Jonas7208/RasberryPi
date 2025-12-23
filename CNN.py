@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/home/jugendforscht26/env/bin python3
 import numpy as np
 from PIL import Image
 import tflite_runtime.interpreter as tflite
