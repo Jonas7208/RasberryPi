@@ -1,0 +1,6 @@
+# Python 3.11 Virtual Environment Requirements
+# For TensorFlow Lite and image processing
+
+tflite-runtime==2.14.0
+numpy>=1.23.2
+pillow>=10.0.0
