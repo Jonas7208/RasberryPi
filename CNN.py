@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import numpy as np
 from PIL import Image
 import tflite_runtime.interpreter as tflite
@@ -21,7 +22,7 @@ def erkenne_muell(filename):
     bild_array = bild_array / 255.0
     bild_array = np.expand_dims(bild_array, axis=0)
 
-    interpreter = tflite.Interpreter(model_path='model. tflite')
+    interpreter = tflite.Interpreter(model_path='model.4tflite')
     interpreter.allocate_tensors()
 
     input_details = interpreter.get_input_details()

@@ -11,7 +11,7 @@ picam2.start()
 time.sleep(2)
 
 Uhrzeit = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-filename = f"still_{Uhrzeit}. jpg"
+filename = f"still_{Uhrzeit}.jpg"
 
 picam2.capture_file(filename)
 picam2.stop()
